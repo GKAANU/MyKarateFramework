@@ -36,10 +36,11 @@ Feature: using match keyword
     * match employee.active == '#boolean'
     * match employee.last_name =='#notpresent'
 
-  @wip
+
+
   Scenario: contains matching
-    * def employees = 
-    """
+    * def employees =
+  """
     [
     {
     "first_name":"TJ",
@@ -57,3 +58,4 @@ Feature: using match keyword
     * print length
     * match length == 2
     * match employees contains any {"first_name":"TJ","salary":24001,"active":true}
+
