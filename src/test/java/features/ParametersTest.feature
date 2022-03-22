@@ -64,7 +64,7 @@ Feature: Parameters examples
 
 
 
-  @wip
+
   Scenario: hr regions example
     Given url hrUrl
     And path 'regions'

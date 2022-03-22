@@ -2,7 +2,8 @@
 Feature: Karate Java Integration
 
   Background:
-    * def spartanUrl = 'http://52.207.61.129:8000/'
+    * def spartanUrl = 'http://3.91.222.28:8000/'
+
   Scenario: Get a spartan with request header
     Given url spartanUrl
     And path "api/spartans"
@@ -29,6 +30,7 @@ Feature: Karate Java Integration
     And print response
 
 
+  @wip
   Scenario: reading java methods
      #point the class that we want to run
      #Java.type --> used to connect to java class
