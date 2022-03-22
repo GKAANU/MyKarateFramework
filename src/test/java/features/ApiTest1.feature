@@ -17,8 +17,7 @@ Feature: exchange rate api tests
     #this equals to headers().hasHeaderWithName("headername") in restassured
 
 
-  @wip
-  Scenario: json body verification
+    Scenario: json body verification
     Given url 'https://petstore.swagger.io/v2/store/inventory'
     When method get
     Then status 200
