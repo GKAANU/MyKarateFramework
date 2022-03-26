@@ -1,3 +1,4 @@
+@smoke
 Feature: get user token
 
 

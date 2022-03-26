@@ -1,3 +1,4 @@
+@smoke
 Feature: using match keyword
 
 
