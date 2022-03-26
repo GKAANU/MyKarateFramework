@@ -1,6 +1,6 @@
 Feature: get user token
 
-  @wip
+
   Scenario: get one user token
     Given url 'https://cybertek-reservation-api-qa3.herokuapp.com/'
     And path 'sign'

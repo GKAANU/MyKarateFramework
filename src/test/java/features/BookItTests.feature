@@ -20,8 +20,6 @@ Feature: Bookit Api tests
     And match response == {"id":140,"firstName":"Ase","lastName":"Norval","role":"student-team-leader"}
 
 
-
-
   Scenario:  get campus information
     Given url baseUrl
     And path 'api/campuses'
