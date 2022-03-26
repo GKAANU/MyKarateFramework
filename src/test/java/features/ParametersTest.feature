@@ -2,8 +2,8 @@ Feature: Parameters examples
 
   Background:
     * def baseUrl = 'https://petstore.swagger.io/v2/store'
-    * def spartanUrl = 'http://:)/'
-    * def hrUrl = 'http://:)/ords/hr'
+    * def spartanUrl = 'http://3.91.222.28:8000/'
+    * def hrUrl = 'http://3.91.222.28:1000/ords/hr'
   Scenario: path parameters
     Given url baseUrl
     And path "inventory"
