@@ -16,7 +16,7 @@ public class DBUtils {
      *
      */
     public static void createConnection() {
-        String url = "jdbc:postgresql://room-reservation-qa2.cxvqfpt4mc2y.us-east-1.rds.amazonaws.com:5432/room_reservation_qa2";
+        String url = "jdbc:postgresql://room-reservation-qa3.cxvqfpt4mc2y.us-east-1.rds.amazonaws.com:5432/room_reservation_qa3";
         String username = "qa_user";
         String password = "Cybertek11!";
         try {
